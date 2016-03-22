@@ -103,10 +103,10 @@
         <div class="help">
             How many nodes can go down without application noticing? This is a lower bound - in large clusters, you could lose more nodes and if they happen to be handling different parts of the keyspace, then you wouldn't notice either.
         </div>
-        <div>
+        <div class="help"><strong>
             Formula: If Write/Read Level ONE, {ReplicationFactor} - 1
             <br/>
-        </div>
+        <strong></div>
     </div>
     <div class="calculated">
         You are really reading from
@@ -125,10 +125,10 @@
         <div class="help">
             The more nodes you write to, more network traffic ensues, and the bigger the latencies involved. Cassandra write operation won't return until at least this many nodes have acknowledged receiving the data.
         </div>
-        <div>
+        <div class="help"><strong>
             Formula: If Write/Read Level Quorum, {ReplicationFactor}/2 + 1
             <br/>
-        </div>
+        </strong></div>
     </div>
     <div class="calculated">
         Each node holds
