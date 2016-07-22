@@ -5097,7 +5097,7 @@
 }({
     clientCode: 'ubsag',
     imsOrgId: '73FAC51D54C72AE50A4C98BC@AdobeOrg',
-    serverDomain: 'ubsag.tt.omtrdc.net',
+    serverDomain: 'aaabbbccc',
     crossDomain: 'enabled',
     timeout: 15000,
     globalMboxName: 'target-global-mbox',
